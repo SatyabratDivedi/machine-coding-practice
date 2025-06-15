@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link';
-import React, { useState } from 'react'
+import React from 'react'
 
 interface Project {
   name: string;
@@ -8,14 +8,17 @@ interface Project {
 }
 
 const App = () => {
-  const data: Project[] = [
+
+  const projects: Project[] = [
     {
       name: 'Stepper',
       link: '/stepper',
     },
+    {
+      name: 'Pagination and Popup',
+      link: '/pagination-and-popup',
+    },
   ]
-
-  const [projects, setProjects] = useState<Project[]>(data);
   return (
     <div>
       <h1>Project List</h1>
