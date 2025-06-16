@@ -1,7 +1,7 @@
 "use client";
 
 import  React  from 'react';
-import Stepper from '../components/Stepper';
+import Stepper from '../../components/Stepper';
 
 
 export interface StepperProps {

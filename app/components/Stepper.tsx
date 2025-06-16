@@ -1,5 +1,5 @@
 'use client';
-import { StepperProps } from '../stepper/page';
+import { StepperProps } from '../(route)/stepper/page';
 
 interface ComponentStepperProps {
   steps: StepperProps[];

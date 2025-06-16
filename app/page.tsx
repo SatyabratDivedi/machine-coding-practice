@@ -18,6 +18,10 @@ const App = () => {
       name: 'Pagination and Popup',
       link: '/pagination-and-popup',
     },
+    {
+      name: 'CRUD Operations',
+      link: '/crud',
+    },
   ]
   return (
     <div>

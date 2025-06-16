@@ -1,8 +1,8 @@
 'use client';
 
 import { Suspense, useEffect, useState } from 'react';
-import Popup from '../components/Popup';
-import Pagination from '../components/Pagination';
+import Popup from '../../components/Popup';
+import Pagination from '../../components/Pagination';
 import { useRouter, useSearchParams } from 'next/navigation';
 
 interface DataType {
