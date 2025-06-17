@@ -22,6 +22,10 @@ const App = () => {
       name: 'CRUD Operations',
       link: '/crud',
     },
+    {
+      name: 'tabs with state persist',
+      link: '/tabs',
+    },
   ]
   return (
     <div>
