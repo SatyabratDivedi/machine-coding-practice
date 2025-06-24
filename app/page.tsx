@@ -26,6 +26,10 @@ const App = () => {
       name: 'tabs with state persist',
       link: '/tabs',
     },
+    {
+      name: 'Edit and Update with Todo data',
+      link: '/todos',
+    },
   ]
   return (
     <div>
