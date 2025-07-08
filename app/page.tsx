@@ -30,6 +30,10 @@ const App = () => {
       name: 'Edit and Update with Todo data',
       link: '/todos',
     },
+    {
+      name: 'infinite scroll',
+      link: '/infinite-scroll',
+    },
   ]
   return (
     <div>
