@@ -25,6 +25,7 @@ function ItemList({ items, openItems, setOpenItems }: itemListProps) {
           <div key={i} style={{ marginBottom: "4px" }}>
             <div
               onClick={() =>
+                data.isFolder && 
                 setOpenItems((prev) =>
                   prev.includes(data.name)
                     ? prev.filter((word) => word !== data.name)
