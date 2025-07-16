@@ -34,6 +34,10 @@ const App = () => {
       name: 'infinite scroll',
       link: '/infinite-scroll',
     },
+    {
+      name: 'coding tab',
+      link: '/coding-tab',
+    },
   ]
   return (
     <div>
